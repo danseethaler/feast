@@ -5,6 +5,7 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+    "deploy": "eas build --platform ios && eas submit -p ios --latest",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
