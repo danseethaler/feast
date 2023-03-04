@@ -17,7 +17,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1",
+      "buildNumber": "2",
       "bundleIdentifier": "com.danseethaler.feast",
       "config": {
         "usesNonExemptEncryption": false
@@ -31,6 +31,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "391f7452-3c91-42c0-b8a1-46dcb2a030f7"
+      }
     }
   }
 }
